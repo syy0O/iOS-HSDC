@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE22154428603E0F003E5407 /* declare.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE22154328603E0F003E5407 /* declare.swift */; };
 		FED0FC94285C49A200BADCDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0FC93285C49A200BADCDB /* AppDelegate.swift */; };
 		FED0FC96285C49A200BADCDB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0FC95285C49A200BADCDB /* SceneDelegate.swift */; };
 		FED0FC98285C49A200BADCDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0FC97285C49A200BADCDB /* ViewController.swift */; };
 		FED0FC9B285C49A300BADCDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED0FC99285C49A300BADCDB /* Main.storyboard */; };
 		FED0FC9D285C49A400BADCDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED0FC9C285C49A400BADCDB /* Assets.xcassets */; };
 		FED0FCA0285C49A400BADCDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED0FC9E285C49A400BADCDB /* LaunchScreen.storyboard */; };
+		FED0FCAC285C5FA000BADCDB /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED0FCAB285C5FA000BADCDB /* CalendarCollectionViewCell.swift */; };
+		FED0FCB0285C6A6800BADCDB /* Cafe24Ohsquare.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FED0FCAF285C6A6500BADCDB /* Cafe24Ohsquare.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE22154328603E0F003E5407 /* declare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = declare.swift; sourceTree = "<group>"; };
 		FED0FC90285C49A200BADCDB /* HSDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED0FC93285C49A200BADCDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED0FC95285C49A200BADCDB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		FED0FC9C285C49A400BADCDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED0FC9F285C49A400BADCDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FED0FCA1285C49A400BADCDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED0FCAB285C5FA000BADCDB /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		FED0FCAF285C6A6500BADCDB /* Cafe24Ohsquare.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cafe24Ohsquare.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE221545286050CC003E5407 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FED0FCAF285C6A6500BADCDB /* Cafe24Ohsquare.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FED0FC87285C49A200BADCDB = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +70,12 @@
 		FED0FC92285C49A200BADCDB /* HSDC */ = {
 			isa = PBXGroup;
 			children = (
+				FE221545286050CC003E5407 /* Fonts */,
 				FED0FC93285C49A200BADCDB /* AppDelegate.swift */,
 				FED0FC95285C49A200BADCDB /* SceneDelegate.swift */,
 				FED0FC97285C49A200BADCDB /* ViewController.swift */,
+				FED0FCAB285C5FA000BADCDB /* CalendarCollectionViewCell.swift */,
+				FE22154328603E0F003E5407 /* declare.swift */,
 				FED0FC99285C49A300BADCDB /* Main.storyboard */,
 				FED0FC9C285C49A400BADCDB /* Assets.xcassets */,
 				FED0FC9E285C49A400BADCDB /* LaunchScreen.storyboard */,
@@ -127,6 +144,7 @@
 			files = (
 				FED0FCA0285C49A400BADCDB /* LaunchScreen.storyboard in Resources */,
 				FED0FC9D285C49A400BADCDB /* Assets.xcassets in Resources */,
+				FED0FCB0285C6A6800BADCDB /* Cafe24Ohsquare.ttf in Resources */,
 				FED0FC9B285C49A300BADCDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED0FCAC285C5FA000BADCDB /* CalendarCollectionViewCell.swift in Sources */,
+				FE22154428603E0F003E5407 /* declare.swift in Sources */,
 				FED0FC98285C49A200BADCDB /* ViewController.swift in Sources */,
 				FED0FC94285C49A200BADCDB /* AppDelegate.swift in Sources */,
 				FED0FC96285C49A200BADCDB /* SceneDelegate.swift in Sources */,
@@ -289,6 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NBFZ3U79L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HSDC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +337,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4NBFZ3U79L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HSDC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
